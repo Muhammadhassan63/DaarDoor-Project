@@ -1,0 +1,62 @@
+
+.outer-box {
+    display: inline-flex;
+    width: 1296px;
+    height: 474px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/dummyimage.jpg), lightgray 50% / cover no-repeat;
+    margin-bottom: 100px;
+    margin-top: 2rem;
+  }
+  
+  .inner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .white-box {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 38px 47px;
+  }
+
+  .inner-box-text{
+    color: #08110C;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    width: 581px;
+  }
+
+  .bowerse-button {
+    display: flex;
+    width: 175px;
+    height: 47px;
+    padding: 11px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #17456b;
+    cursor: pointer;
+  }
+
+#bowerse-button-container{
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.arrow-image{
+  width: 20px;
+  height: 20px;
+  color: #FFF;
+
+}

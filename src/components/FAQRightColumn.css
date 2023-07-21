@@ -1,0 +1,52 @@
+.right-column {
+  margin-left: 75px;
+  margin-right: 52px;
+  text-align: left;
+}
+
+.faq-container {
+  margin-top: 2rem;
+}
+
+.faq-question {
+  margin-bottom: 1.5rem;
+  width: 682px;
+  color: "black";
+}
+
+.question-text {
+  color: #08110c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.answer-text {
+  color: #313131;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-container img {
+  display: flex;
+}
+
+.caret-image {
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.caret-image.rotate {
+  transform: rotate(180deg);
+}

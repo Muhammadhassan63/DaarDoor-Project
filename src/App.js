@@ -1,9 +1,13 @@
 import './App.css';
-import SellScreen from './pages/SellScreen';
+import AboutUS from './pages/AboutUS';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className="App">
-      <SellScreen/>
+      <AboutUS/>
+      <Footer/>
+
     </div>
   );
 }
