@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FAQRightColumn.css"
+import styles from "./FAQRightColumn.module.css"
 import CaretDown from "../assets/CaretDown.png";
 
 export default function FAQRightColumn() {
@@ -38,25 +38,27 @@ export default function FAQRightColumn() {
     
       const [questions, setQuestions] = useState(initialQuestions);
   return (
-    <div className="right-column">
-    <div className="faq-container">
-      {questions.map((q, index) => (
-        <div key={index} className="faq-question">
-          <div
-            className="sub-container"
-            onClick={() => toggleQuestion(index)}
-          >
-            <p className="question-text">{q.question}</p>
-            <img
-              src={CaretDown}
-              alt="Caret Down"
-              className={`caret-image ${q.isOpen ? "rotate" : ""}`}
-            />
+    <div className={styles["right-column"]}>
+      <div className={styles["faq-container"]}>
+        {questions.map((q, index) => (
+          <div key={index} className={styles["faq-question"]}>
+            <div
+              className={styles["sub-container"]}
+              onClick={() => toggleQuestion(index)}
+            >
+              <p className={styles["question-text"]}>{q.question}</p>
+              <img
+                src={CaretDown}
+                alt="Caret Down"
+                className={`${styles["caret-image"]} ${
+                  q.isOpen ? styles["rotate"] : ""
+                }`}
+              />
+            </div>
+            {q.isOpen && <p className={styles["answer-text"]}>{q.answer}</p>}
           </div>
-          {q.isOpen && <p className="answer-text">{q.answer}</p>}
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-  </div>
-  )
+  );
 }

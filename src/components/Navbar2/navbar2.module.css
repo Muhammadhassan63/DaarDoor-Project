@@ -1,10 +1,11 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 90vw;
     height: 10%;
     background-color: transparent;
+    margin: 0 auto; 
 
 }
 .logo{
@@ -15,8 +16,8 @@
     justify-content: flex-start;
 }
 .logo img{
-    width: 170px;
-    height: 80px;
+    width: 140px;
+    height: 65px;
 }
 .menu{
     width: 60%;
@@ -29,12 +30,10 @@
     text-decoration: none;
     list-style: none;
     color: #fff;
-    
     font-weight: 600;
     padding: 0rem 1rem;
     font-family: "Plus Jakarta Sans";
     font-size: 14px;
-
 }
 .buttons{
     width: 20%;
@@ -47,7 +46,7 @@
     border-radius: 3.125rem;
 border: 1px solid #fff;
 color: #fff;
-font-size: 0.7rem;
+font-size: 0.8rem;
 font-weight: 600;
 background: transparent;
 padding: 0.3rem 0.8rem;
@@ -58,7 +57,7 @@ cursor: pointer;
     border-radius: 3.125rem;
 background: #17456B;
 color: #fff;
-font-size: 0.7rem;
+font-size: 0.8rem;
 font-weight: 600;
 padding: 0.3rem 0.8rem;
 cursor: pointer;

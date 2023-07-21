@@ -18,9 +18,6 @@ export default function ContactForm() {
       <div className={styles.formField}>
         <label htmlFor="subject">Subject</label>
         <select id="subject" name="subject" defaultValue="general" required>
-          {/* <option value="" disabled>
-            General Inquiry
-          </option> */}
           <option value="general">General Inquiry</option>
           <option value="support">Support</option>
           <option value="details">Further Details</option>

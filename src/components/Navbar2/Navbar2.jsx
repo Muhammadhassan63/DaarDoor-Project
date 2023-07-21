@@ -25,12 +25,13 @@ const Navbar2 = () =>{
                 <img src={logo} alt="logo" />
             </div>
             <div className={styles.menu}>
-            <Link to="/" >Home</Link>
-        <Link >Companies</Link>
-        <Link to="/buy" >Buy</Link>
-        <Link to="/sell" >Sell</Link>
-        <Link >Blogs</Link>
-        <Link >Contact Us</Link>
+                    <Link to="/">Home</Link>
+                    <Link>Companies</Link>
+                    <Link to="/buy">Buy</Link>
+                    <Link style={{display: user ? "block" : "none"}}
+                     to="/sell">Sell</Link>
+                    <Link>Blogs</Link>
+                    <Link to='/contact'>Contact Us</Link>
             </div>
             <div className={styles.buttons} style={{display: user ? "none" : "flex"}}>
                 <button className={styles.login}
@@ -52,7 +53,7 @@ const Navbar2 = () =>{
                 <button className={styles.signup} onClick={
                     () => {
                         localStorage.removeItem('user')
-                        navigate('/buy')
+                        window.location.href = '/buy'
                     }
                 }>Logout</button>
             </div>
