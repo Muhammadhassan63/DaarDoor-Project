@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/dummyimage.jpg), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../../images/dummyimage.jpg), lightgray 50% / cover no-repeat;
     margin-bottom: 100px;
     margin-top: 2rem;
   }
@@ -37,7 +37,7 @@
 
   .bowerse-button {
     display: flex;
-    width: 175px;
+    width: 190px;
     height: 47px;
     padding: 11px 26px;
     justify-content: center;
@@ -47,16 +47,25 @@
     border-radius: 50px;
     background: #17456b;
     cursor: pointer;
+    color: #FFF;
   }
 
-#bowerse-button-container{
+.bowerse-button-container{
     justify-content: center;
     margin-top: 24px;
 }
 
 .arrow-image{
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   color: #FFF;
+}
 
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
 }

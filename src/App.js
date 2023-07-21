@@ -1,12 +1,20 @@
 import './App.css';
 import AboutUS from './pages/AboutUS';
-import Footer from './components/Footer';
+import ContactUs from './pages/ContactUs';
+import Blogs from './pages/Blogs/Blogs';
+import HomePage from './pages/HomePage/HomePage';
+
+
 
 function App() {
   return (
     <div className="App">
-      <AboutUS/>
-      <Footer/>
+      
+      {/* <AboutUS/> */}
+     
+      {/* <ContactUs/> */}
+      {/* <Blogs/> */}
+      <HomePage/>
 
     </div>
   );

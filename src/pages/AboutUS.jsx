@@ -1,14 +1,19 @@
 import React from "react";
 import "./AboutUS.css";
-import CallToActionSection from "../components/CallToActionSection";
+import CallToActionSection from "../components/CallToActionSection/CallToActionSection";
 import FrequentlyAskQuestions from "../components/FrequentlyAskQuestions";
+import Navbar2 from "../components/Navbar2/Navbar2";
+import Footer from "../components/Footer/Footer";
 
 export default function AboutUS() {
-
   return (
     <div>
       <div className="hero-section">
+      <div className="add-Navbar">
+        <Navbar2  />
+        </div>
         <div className="hero-content">
+       
           <h1 className="hero-heading">Lorem Ipsum Sit Amet Coridol</h1>
           <div>
             <p className="hero-subheading">
@@ -38,6 +43,7 @@ export default function AboutUS() {
       </div>
       <FrequentlyAskQuestions/>
       <CallToActionSection />
+      <Footer/>
     </div>
   );
 
