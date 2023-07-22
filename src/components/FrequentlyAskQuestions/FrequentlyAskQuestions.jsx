@@ -1,6 +1,6 @@
 import React from "react";
-import ArrowRight from "../assets/ArrowRight.png";
-import FAQRightColumn from "./FAQRightColumn";
+import ArrowRight from "../../assets/ArrowRight.png";
+import FAQRightColumn from "../FAQRightColumn/FAQRightColumn";
 import styles from "./FrequentlyAskQuestions.module.css"; // Import the modular CSS styles as 'styles'
 
 export default function FrequentlyAskQuestions() {

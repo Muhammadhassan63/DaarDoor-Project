@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./FAQRightColumn.module.css"
-import CaretDown from "../assets/CaretDown.png";
+import CaretDown from "../../assets/CaretDown.png";
 
 export default function FAQRightColumn() {
     const initialQuestions = [

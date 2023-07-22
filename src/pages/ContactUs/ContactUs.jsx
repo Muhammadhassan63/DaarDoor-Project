@@ -1,14 +1,14 @@
 import React from "react";
-import phoneIcon from "../assets/bxs_phone-call.png";
-import locationIcon from "../assets/carbon_location-filled.png";
-import emailIcon from "../assets/ic_sharp-email.png";
-import youtubeIcon from "../assets/youtube-icon.png";
-import appleIcon from "../assets/apple-icon.png";
-import twitterIcon from "../assets/twitter-icon.png";
-import Navbar from "../components/Navbar/Navbar";
-import ContactForm from "../components/ContactForm/ContactForm";
+import phoneIcon from "../../assets/bxs_phone-call.png";
+import locationIcon from "../../assets/carbon_location-filled.png";
+import emailIcon from "../../assets/ic_sharp-email.png";
+import youtubeIcon from "../../assets/youtube-icon.png";
+import appleIcon from "../../assets/apple-icon.png";
+import twitterIcon from "../../assets/twitter-icon.png";
+import Navbar from "../../components/Navbar/Navbar";
+import ContactForm from "../../components/ContactForm/ContactForm";
 import styles from "./ContactUs.module.css"; // Import the modular CSS styles as 'styles'
-import Footer from "../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 export default function ContactUs() {
   return (

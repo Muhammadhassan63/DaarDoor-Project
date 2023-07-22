@@ -1,8 +1,8 @@
 import React from "react";
-import CallToActionSection from "../components/CallToActionSection/CallToActionSection";
-import FrequentlyAskQuestions from "../components/FrequentlyAskQuestions";
-import Navbar2 from "../components/Navbar2/Navbar2";
-import Footer from "../components/Footer/Footer";
+import CallToActionSection from "../../components/CallToActionSection/CallToActionSection";
+import FrequentlyAskQuestions from "../../components/FrequentlyAskQuestions/FrequentlyAskQuestions";
+import Navbar2 from "../../components/Navbar2/Navbar2";
+import Footer from "../../components/Footer/Footer";
 import styles from "./AboutUS.module.css"; // Import the modular CSS styles as 'styles'
 
 export default function AboutUS() {
