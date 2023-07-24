@@ -9,17 +9,11 @@ import HomePage from './pages/HomePage/HomePage';
 function App() {
   return (
     <div className="App">
-      
-    
-     
-      {/* <ContactUs/> */}
-      {/* <Blogs/> */}
-      <HomePage/>
-      
-      {/* <Routes>
+      <Routes>
         <Route path="/contact" element={<ContactUs/>}/>
-        <Route path="/" element={<AboutUS/>}/>
-      </Routes> */}
+        <Route path="/about" element={<AboutUS/>}/>
+        <Route path="/" element={<HomePage/>}/>
+      </Routes> 
       
 
     </div>
