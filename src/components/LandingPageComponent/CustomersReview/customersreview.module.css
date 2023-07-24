@@ -1,0 +1,78 @@
+.whatOurCustomers {
+    position: relative;
+    display: inline-block;
+    width: 604px;
+  }
+  .hearFromOur {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: #141413;
+  }
+  .whatOurCustomersSayParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .frameChild,
+  .frameItem {
+    position: relative;
+    border-radius: 50px;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frameItem {
+    display: none;
+  }
+  .frameContainer,
+  .frameGroup {
+    margin: 70px 30px 0px 30px;
+    gap: 20px;
+  }
+  .frameGroup {
+    top: 503px;
+    left: 654px;
+    display: none;
+  }
+  .frameContainer {
+    left: 72px;
+    display: flex;
+  }
+  .frameParent {
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    font-size: 32px;
+    color: #08110c;
+    font-family: "Plus Jakarta Sans";
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some margin to separate the buttons from the reviews */
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f3f9fb;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; /* Add some spacing between the buttons */
+  }
+  
+  .icon {
+    color: #008ecc;
+    font-size: 20px;
+  }

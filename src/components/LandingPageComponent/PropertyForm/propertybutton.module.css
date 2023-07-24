@@ -1,0 +1,23 @@
+.propertyButton {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 150px; /* Adjust as needed to control the width of each button */
+  }
+.propertyButtonText{
+  color: #344054;
+  font-size: 20;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.active {
+  background-color: #344054;
+  color: #fff;
+}
+.textActive {
+  color: #fff;
+}
